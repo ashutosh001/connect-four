@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="parentGridPane" style="-fx-background-color: #D9F7F0;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ashutosh.praharaj.connectfour.connectFour_controller">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane fx:id="menuBarPane" prefWidth="760.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" />
+        <Pane fx:id="playGround" prefHeight="481.0" prefWidth="560.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
+        <VBox fx:id="infoVBox" prefHeight="480.0" prefWidth="220.0" style="-fx-background-color: #2b3b4c;" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+            <children>
+                <Region maxHeight="112.0" prefHeight="112.0" prefWidth="220.0" VBox.vgrow="ALWAYS" />
+                <TextField fx:id="player1TextField" prefHeight="26.0" prefWidth="200.0" promptText="Player One Name">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin></TextField>
+                <TextField fx:id="player2TextField" prefWidth="200.0" promptText="Player Two Name">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin></TextField>
+                <Region prefHeight="15.0" prefWidth="200.0" />
+                <Button fx:id="setNameButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" text="Set Names">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin></Button>
+                <Label fx:id="playerNameLabel" alignment="CENTER" prefHeight="43.0" prefWidth="200.0" text="Player One" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="29.0" />
+                    </font>
+                </Label>
+                <Label fx:id="turnLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="87.0" prefHeight="18.0" prefWidth="200.0" text="Turn" textFill="WHITE">
+                    <font>
+                        <Font size="19.0" />
+                    </font>
+                </Label>
+                <Region layoutX="10.0" layoutY="122.0" prefHeight="180.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+            </children>
+        </VBox>
+    </children>
+</GridPane>
