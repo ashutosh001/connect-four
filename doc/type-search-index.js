@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.ashutosh.praharaj.connectfour","l":"connectFour_controller"},{"p":"com.ashutosh.praharaj.connectfour","l":"connectFour_main"},{"p":"com.ashutosh.praharaj.connectfour","l":"connectFour_controller.Disc"}];updateSearchResults();
