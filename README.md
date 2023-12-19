@@ -8,7 +8,7 @@ Make sure you have Java installed and properly configured on your system.
 
 1. Clone the repository.
 
-2. Navigate to the following directory `out\artifacts\connectFour_jar\connectFour.jar`
+2. Navigate to the following directory `out\artifacts\connectFour_jar` in the project folder.
 
 3. Double-click on the file named `run.cmd`.
 
