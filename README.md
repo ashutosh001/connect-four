@@ -6,9 +6,11 @@ Make sure you have Java installed and properly configured on your system.
 
 ## Instructions to Run
 
-1. Navigate to the following directory in your project:
+1. Clone the repository.
 
-2. Double-click on the file named `run.cmd`.
+2. Navigate to the following directory `out\artifacts\connectFour_jar\connectFour.jar`
+
+3. Double-click on the file named `run.cmd`.
 
 That's it! Connect Four game should start running. 
 
